@@ -1,0 +1,18 @@
+{
+    "name": "rbs/rbsreports",
+    "description": "Simple reports",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rbs\\Rbsreports\\": "packages/RBS/rbsreports/src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Udaya Nadeeshan"
+        }
+    ],
+    "require": {}
+}
