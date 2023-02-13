@@ -5,5 +5,8 @@ Route::get('rbs', function () {
 });
 
 
-Route::get('add/{a}/{b}', [RBS\Rbsreports\RbsreportsController::class, 'add']);
-Route::get('substarct/{a}/{b}', [RBS\Rbsreports\RbsreportsController::class, 'substarct']);
+// Route::get('add/{a}/{b}', [RBS\Rbsreports\RbsreportsController::class, 'add']);
+// Route::get('substarct/{a}/{b}', [RBS\Rbsreports\RbsreportsController::class, 'substarct']);
+
+
+Route::get('user/{param}', [RBS\Rbsreports\RbsreportsController::class, 'userList']);
